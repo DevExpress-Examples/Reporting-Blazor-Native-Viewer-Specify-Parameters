@@ -2,7 +2,7 @@
 
 *Files to look at:*
 
-* [Viewer.razor](BlazorApp/Viewer.razor)
+* [Viewer.razor](CS/BlazorApp/Pages/Viewer.razor)
 
 Refer to the following topic for a detailed description of this example: [Specify Parameter Values in a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403272?v=21.1).
 
