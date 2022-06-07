@@ -19,16 +19,24 @@
     string paramValue = "0";
     IReport Report;
 
-    protected override async Task OnInitializedAsync() {
-        var report = new XtraReport1();
-        report.Parameters[paramName].Visible = false;
-        Report = report;
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender){
+            var report = new XtraReport1();
+            report.Parameters[paramName].Visible = false;
+            Report = report;
+        }
+
+        base.OnAfterRender(firstRender);
     }
 
-    async Task SubmitParameter() {
+    void SubmitParameter(){
         var report = new XtraReport1();
         report.Parameters[paramName].Value = paramValue;
         report.Parameters[paramName].Visible = false;
-        await reportViewer.OpenReportAsync(report);
+        report.CreateDocument();
+        reportViewer.TabPanelModel.Tabs[0].Visible = false;
+        Report = report;
     }
+
 }
