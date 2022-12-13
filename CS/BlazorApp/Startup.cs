@@ -23,6 +23,7 @@ namespace BlazorApp {
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddDevExpressServerSideBlazorReportViewer();
+            services.AddDevExpressBlazor(configure => configure.BootstrapVersion = DevExpress.Blazor.BootstrapVersion.v5);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
