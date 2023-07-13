@@ -40,8 +40,6 @@ namespace BlazorApp {
                 app.UseHsts();
             }
 
-            app.UseDevExpressServerSideBlazorReportViewer();
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
