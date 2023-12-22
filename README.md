@@ -5,6 +5,8 @@
 <!-- default badges end -->
 # Native Blazor Report  Viewer - Specify Parameter Values
 
+This example demonstrates how to submit parameter values on button click.
+
 ## How to Run the Example
 
 1. Download the project and update NuGet packages.
@@ -18,7 +20,7 @@
 
 * [Viewer.razor](CS/BlazorApp/Pages/Viewer.razor)
 
-# Documentation
+## Documentation
 
 * [Create a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403069)
 * [Specify Parameter Values in a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403272).
