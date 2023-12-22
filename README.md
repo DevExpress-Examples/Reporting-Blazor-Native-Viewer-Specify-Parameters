@@ -3,15 +3,9 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1020318)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Specify Parameter Values in a Blazor Report Viewer (Native) Application
+# Native Blazor Report  Viewer - Specify Parameter Values
 
-*Files to look at:*
-
-* [Viewer.razor](CS/BlazorApp/Pages/Viewer.razor)
-
-Refer to the following topic for a detailed description of this example: [Specify Parameter Values in a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403272?v=21.1).
-
-# How to Run the Example
+## How to Run the Example
 
 1. Download the project and update NuGet packages.
 2. Build and run the project.
@@ -20,6 +14,11 @@ Refer to the following topic for a detailed description of this example: [Specif
 
 ![](Images/specify-parameter-values-in-blazor-viewer-native-app.png)
 
-# See Also
+## Files to Review
 
-* [Create a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403069?v=21.1)
+* [Viewer.razor](CS/BlazorApp/Pages/Viewer.razor)
+
+# Documentation
+
+* [Create a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403069)
+* [Specify Parameter Values in a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403272).
