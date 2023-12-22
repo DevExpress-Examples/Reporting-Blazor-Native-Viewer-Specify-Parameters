@@ -22,5 +22,5 @@ This example demonstrates how to submit parameter values on button click.
 
 ## Documentation
 
-* [Create a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403069)
+* [Report Viewer for Blazor Server (Native)](https://docs.devexpress.com/XtraReports/403594)
 * [Specify Parameter Values in a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403272).
