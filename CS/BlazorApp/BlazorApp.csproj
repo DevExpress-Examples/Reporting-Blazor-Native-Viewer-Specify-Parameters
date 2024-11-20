@@ -4,25 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Reports\XtraReport1.vsrepx" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Reports\XtraReport1.vsrepx" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="DevExpress.Blazor" Version="24.2.*-*" />
     <PackageReference Include="DevExpress.Blazor.Reporting.Viewer" Version="24.2.*-*" />
     <PackageReference Include="DevExpress.Drawing.Skia" Version="24.2.*-*" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Reports\XtraReport1.cs">
-      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
-    </Compile>
-    <Compile Update="Reports\XtraReport1.Designer.cs">
-      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
-    </Compile>
   </ItemGroup>
 </Project>
