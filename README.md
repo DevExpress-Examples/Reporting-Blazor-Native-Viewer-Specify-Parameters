@@ -19,7 +19,7 @@ This example demonstrates how to submit parameter values on button click.
 
 ## Files to Review
 
-* [ReportViewer.razor](BlazorApp/Pages/ReportViewer.razor)
+* [ReportViewer.razor](BlazorApp/BlazorApp/Pages/ReportViewer.razor)
 
 ## Documentation
 
