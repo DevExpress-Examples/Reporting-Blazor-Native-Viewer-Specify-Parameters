@@ -1,0 +1,44 @@
+@page "/reportviewer"
+
+@using DevExpress.Blazor.Reporting
+@using DevExpress.XtraReports;
+@using BlazorApp.Reports;
+
+<link href="_content/DevExpress.Blazor.Themes/blazing-berry.bs5.css" rel="stylesheet" />
+<link rel="stylesheet" href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css">
+
+<input @bind="paramValue" />
+
+<button @onclick="SubmitParameter">Submit</button>
+
+<DxReportViewer @ref="reportViewer" Report="@Report"></DxReportViewer>
+
+@code {
+    DxReportViewer reportViewer;
+    string paramName = "strParam";
+    string paramValue = "0";
+    IReport Report;
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var report = new XtraReport1();
+            report.Parameters[paramName].Visible = false;
+            Report = report;
+        }
+
+        base.OnAfterRender(firstRender);
+    }
+
+    void SubmitParameter()
+    {
+        var report = new XtraReport1();
+        report.Parameters[paramName].Value = paramValue;
+        report.Parameters[paramName].Visible = false;
+        report.CreateDocument();
+        reportViewer.TabPanelModel.Tabs[0].Visible = false;
+        Report = report;
+    }
+
+}
