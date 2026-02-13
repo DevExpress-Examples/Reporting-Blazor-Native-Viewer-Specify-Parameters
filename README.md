@@ -26,7 +26,7 @@ This example demonstrates how to submit parameter values on button click.
 * [Report Viewer for Blazor Server (Native)](https://docs.devexpress.com/XtraReports/403594)
 * [Specify Parameter Values in a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403272).
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-dxreportviewer-specify-parameter-values&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-dxreportviewer-specify-parameter-values&~~~was_helpful=no)
 
