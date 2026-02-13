@@ -25,7 +25,7 @@ Refer to the following topic for a detailed description of this example: [Specif
 
 * [Create a Blazor Report Viewer (Native) Application](https://docs.devexpress.com/XtraReports/403069?v=21.1)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-dxreportviewer-specify-parameter-values&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-dxreportviewer-specify-parameter-values&~~~was_helpful=no)
 
